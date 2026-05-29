@@ -1,5 +1,7 @@
+# Define your project structure
 packages:
-  - "apps/*"
-  - "libs/*"
+  - 'apps/*'
+  - 'libs/*'
 
+# Allow all dependencies to run build/post-install scripts automatically
 dangerouslyAllowAllBuilds: true
